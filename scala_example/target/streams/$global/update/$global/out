@@ -1,0 +1,232 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/egyp7/csci3155/scala_example/}scala_example...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: my-test-scala-project#my-test-scala-project_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@84507ed[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scala-lang/scala-library/2.9.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom (2.9.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.2!scala-library.pom(pom.original) (195ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scala-lang/scala-library/2.9.2/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.9.2;1.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.9.2;1.9.1 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scalatest/scalatest_2.9.2/1.9.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.9.2;1.9.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.9.2;1.9.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.pom (1.9.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.9.2;1.9.1!scalatest_2.9.2.pom(pom.original) (182ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scalatest/scalatest_2.9.2/1.9.1/jars/scalatest_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.9.2;1.9.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scalatest#scalatest_2.9.2;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for my-test-scala-project#my-test-scala-project_2.9.2;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-compiler;2.9.2 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.9.2 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scala-lang/scala-compiler/2.9.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.9.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-compiler;2.9.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.pom (2.9.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.9.2!scala-compiler.pom(pom.original) (179ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scala-lang/scala-compiler/2.9.2/jars/scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.9.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-compiler;2.9.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-compiler;2.9.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-compiler;2.9.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-compiler;2.9.2 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#jline;2.9.2 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.9.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scala-lang/jline/2.9.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#jline;2.9.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#jline;2.9.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.pom (2.9.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.9.2!jline.pom(pom.original) (260ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/egyp7/.ivy2/local/org.scala-lang/jline/2.9.2/jars/jline.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.9.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.2->org.scala-lang#jline;2.9.2 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.9.2->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.9.2->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-test-scala-project#my-test-scala-project_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/my-test-scala-project/my-test-scala-project_2.9.2/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.2!scala-library.jar (15257ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.9.2;1.9.1!scalatest_2.9.2.jar(src) (1609ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.9.2;1.9.1!scalatest_2.9.2.jar (4049ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.2/1.9.1/scalatest_2.9.2-1.9.1-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.9.2;1.9.1!scalatest_2.9.2.jar(doc) (228ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar (9512ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/jline/2.9.2/jline-2.9.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.9.2!jline.jar (366ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1613ms :: artifacts dl 31035ms[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 compile produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 runtime produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 test produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 provided produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 optional produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 compile-internal produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 runtime-internal produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 test-internal produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 plugin produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 sources produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 docs produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 pom produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-test-scala-project#my-test-scala-project_2.9.2;1.0 scala-tool produced in /home/egyp7/csci3155/scala_example/target/resolution-cache/reports/my-test-scala-project-my-test-scala-project_2.9.2-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1613ms resolve - 31035ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

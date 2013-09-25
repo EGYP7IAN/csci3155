@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mMySpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mMy Code [0m[0m
+[0m[[0minfo[0m] [0m[32m- should recursively sum a list of integers properly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should sum properly sum a list of integers using the fold operation(s)[0m[0m
+[0m[[0minfo[0m] [0m[32mFib (Euler2) [0m[0m
+[0m[[0minfo[0m] [0m[32m- should sum a few numbers correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should give the correct final answer[0m[0m
+[0m[[0minfo[0m] [0m[32mFactors (Euler3) [0m[0m
+[0m[[0minfo[0m] [0m[32m- should compute the largest prime factor of 10[0m[0m
+[0m[[0minfo[0m] [0m[32m- should give the correct final answer[0m[0m
+[0m[[0minfo[0m] [0m[32mMyMap [0m[0m
+[0m[[0minfo[0m] [0m[32m- should properly use an addition map[0m[0m
+[0m[[0minfo[0m] [0m[32m- should properly use a multiplication map[0m[0m
+[0m[[0minfo[0m] [0m[32mMatching [0m[0m
+[0m[[0minfo[0m] [0m[32m- should properly order a tree[0m[0m
